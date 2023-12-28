@@ -1,4 +1,4 @@
-import { putCategory } from '@/dao/putCategory'
+import { putCategory } from '@/dao/category'
 import type { Connection } from 'mysql2/promise'
 import type { NextApiRequest, NextApiResponse } from 'next'
 

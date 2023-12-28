@@ -1,4 +1,4 @@
-import { deleteCategory } from '@/dao/deleteCategory'
+import { deleteCategory } from '@/dao/category'
 import type { Connection } from 'mysql2/promise'
 import type { NextApiRequest, NextApiResponse } from 'next'
 

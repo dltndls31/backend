@@ -1,4 +1,4 @@
-import { postCategory } from '@/dao/postCategory'
+import { postCategory } from '@/dao/category'
 import type { Connection } from 'mysql2/promise'
 import type { NextApiRequest, NextApiResponse } from 'next'
 

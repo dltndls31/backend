@@ -1,4 +1,4 @@
-import { getTodo } from '@/dao/getTodo'
+import { getTodo } from '@/dao/todo'
 import type { Connection } from 'mysql2/promise'
 import type { NextApiRequest, NextApiResponse } from 'next'
 

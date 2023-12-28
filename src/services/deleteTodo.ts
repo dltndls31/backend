@@ -8,6 +8,7 @@ export const deleteTodoService = async (
     connection: Connection
 ) => {
     const { idx } = req.body
+    console.log(idx)
     const posts = await deleteTodo(idx, connection)
 
     res.status(200).json({
